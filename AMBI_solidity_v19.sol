@@ -20,8 +20,8 @@ contract AMBI
     }
 
     constructor() {
-        _name = "Aark Digital";
-        _symbol = "AARK";
+        _name = "Ambient Finance";
+        _symbol = "AMBI";
         _decimals = 18;
         _owner = msg.sender;
         _mint(msg.sender, 1000000000 * 10 ** 18);
